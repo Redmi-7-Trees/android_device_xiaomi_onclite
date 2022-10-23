@@ -45,6 +45,16 @@ vendor.video.disable.ubwc=1
 # QC framework value-adds
 ro.vendor.qti.va_aosp.support=1
 
+# RIL Powersaving
+ro.ril.disable.power.collapse=0
+ro.ril.fast.dormancy.rule=1
+ro.ril.fast.dormancy.timeout=3
+ro.mot.eri.losalert.delay=100
+persist.radio.add_power_save=1
+ro.vold.umsdirtyratio=20
+ro.vendor.use_data_netmgrd=true
+power.saving.mode=1
+
 # Radio
 DEVICE_PROVISIONED=1
 persist.radio.multisim.config=dsds
